@@ -18,9 +18,9 @@ var grades = function(marks) {
             console.log(`b) Excellent marks: ${marks}, your grade is A`);
         } else if (marks > 50) {
             console.log(`c) Good Marks: ${marks}, your grade is B`);
-        } else if (marks > 25) {
+        } else if (marks > 35) {
             console.log(`d) Marks is ${marks}, your grade is C, Need Improvement`);
-        } else if (marks > 0) {
+        } else if (marks >= 0) {
             console.log(`e) Failed Marks: ${marks}`);
         }
     }
