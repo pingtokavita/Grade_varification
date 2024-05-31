@@ -1,3 +1,4 @@
+//This method generate the grades as per marks. In input format is number
 var grades = function(marks) {
     // Check if marks is undefined, null, or not a number after conversion
     if (marks == undefined || marks == null || isNaN(+marks)) {
