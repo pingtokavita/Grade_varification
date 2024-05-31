@@ -12,15 +12,15 @@ var grades = function(marks) {
     } else {
         marks = +marks; // Convert to number if it's a valid numerical string
 
-        if (marks >= 90) {
+        if (marks > 80) {
             console.log(`a) Fantastic marks: ${marks}, your grade is A+`);
-        } else if (marks >= 75) {
+        } else if (marks > 60) {
             console.log(`b) Excellent marks: ${marks}, your grade is A`);
-        } else if (marks >= 50) {
+        } else if (marks > 50) {
             console.log(`c) Good Marks: ${marks}, your grade is B`);
-        } else if (marks >= 35) {
+        } else if (marks > 25) {
             console.log(`d) Marks is ${marks}, your grade is C, Need Improvement`);
-        } else if (marks >= 0) {
+        } else if (marks > 0) {
             console.log(`e) Failed Marks: ${marks}`);
         }
     }
